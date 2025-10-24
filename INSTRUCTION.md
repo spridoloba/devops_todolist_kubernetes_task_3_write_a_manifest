@@ -1,8 +1,8 @@
 Apply all manifests (знаходяться в папці .infrastructure):
 
-kubectl apply -f namespace.yml 
-kubectl apply -f todoapp-pod.yml
-kubectl apply -f busybox.yml
+kubectl apply -f .infrastructure/namespace.yml 
+kubectl apply -f .infrastructure/todoapp-pod.yml
+kubectl apply -f .infrastructure/busybox.yml
 
 Щоб провірити:
 kubectl get pods -n todoapp
