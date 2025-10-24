@@ -10,5 +10,5 @@ spec:
   - name: busybox
     image: ikulyk404/busyboxplus:curl
     args:
-  - sleep
-  - "1000"
+    - sleep
+    - "1000"

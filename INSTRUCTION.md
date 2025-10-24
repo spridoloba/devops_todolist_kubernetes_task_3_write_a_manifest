@@ -23,7 +23,5 @@ kubectl exec -it pod/<busybox-pod-name> -n todoapp -- sh
 
 Всередині контейнера:
 curl http://todoapp:8080
-curl http://localhost:8080/api/readiness/
-curl http://localhost:8080/api/liveness/
-
-
+curl http://todoapp:8080/api/readiness/
+curl http://todoapp:8080/api/liveness/
